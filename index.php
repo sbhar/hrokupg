@@ -14,7 +14,7 @@ if (!pg_num_rows($result)) {
   print("Your connection is working, but your database is empty.\nFret not. This is expected for new apps.\n");
 } else {
   print "Tables in your database:\n";
-  while($row = pg_fetch_row($ret)) {
+  while($row = pg_fetch_row($result)) {
       echo "ID = ". $row[0] . "<br/>";
       echo "NAME = ". $row[1] ."<br/>";
       echo "ADDRESS = ". $row[2] ."<br/>";
