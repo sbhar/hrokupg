@@ -15,8 +15,11 @@ if (!pg_num_rows($result)) {
 } else {
   print "Tables in your database:\n";
   while ($row = pg_fetch_row($result)) { 
-	print($row[0]); 
+	echo "ID = ". $row[0] . "<br/>";
+    echo "NAME = ". $row[1] ."<br/>";
+    echo "ADDRESS = ". $row[2] ."<br/>";
+    echo "SALARY =  ".$row[4] ."<br/><br/>";
   }
 }
-print "\n";
+print "<br/>";
 ?>
