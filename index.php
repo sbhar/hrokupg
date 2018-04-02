@@ -21,7 +21,7 @@ if (!pg_num_rows($result)) {
   while ($row = pg_fetch_row($result)) { print($row[0]."<br/>"); }
 =======
   while ($row = pg_fetch_row($result)) { print("- $row[0]\n"); }
->>>>>>> 2f0cda169cf1b96f9b8865d92aa4c5cd92bfb77c
+
 }
 print "\n";
 ?>
