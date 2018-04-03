@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: *');
 //$dsn = 'pgsql://[user[:pass]@]host[:port]/db/;
 //$dsn = '';
 function pg_connection_string_from_database_url() {
