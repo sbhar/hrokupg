@@ -1,4 +1,4 @@
-# PostgreSQL + PHP on Heroku
+# PostgreSQL + PHP on Heroku + REST API output
 
 This app demonstrates how to connect to Heroku PostgreSQL database in a PHP app and output json.
 
